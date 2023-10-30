@@ -52,6 +52,7 @@
     "bidding seasonality adjustment service",
     "bidding strategy service",
     "billing setup service",
+    "brand suggestion service",
     "campaign asset service",
     "campaign asset set service",
     "campaign bid modifier service",
@@ -64,6 +65,7 @@
     "campaign feed service",
     "campaign group service",
     "campaign label service",
+    "campaign lifecycle service",
     "campaign service",
     "campaign shared set service",
     "conversion action service",
@@ -83,6 +85,7 @@
     "customer extension setting service",
     "customer feed service",
     "customer label service",
+    "customer lifecycle service",
     "customer manager link service",
     "customer negative criterion service",
     "customer service",
@@ -112,13 +115,13 @@
     "keyword plan service",
     "keyword theme constant service",
     "label service",
-    "media file service",
-    "merchant center link service",
     "offline user data job service",
     "payments account service",
+    "product link invitation service",
     "product link service",
     "reach plan service",
     "recommendation service",
+    "recommendation subscription service",
     "remarketing action service",
     "shared criterion service",
     "shared set service",
@@ -143,9 +146,9 @@
   "devDependencies": {
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.11.18",
-    "@types/sinon": "^10.0.16",
+    "@types/sinon": "^10.0.17",
     "c8": "^8.0.1",
-    "google-gax": "^4.0.4",
+    "gapic-tools": "^0.2.0",
     "gts": "5.0.1",
     "jsdoc": "^4.0.2",
     "jsdoc-fresh": "^3.0.0",
@@ -159,6 +162,6 @@
     "node": ">=v14"
   },
   "dependencies": {
-    "gapic-tools": "https://gitpkg.now.sh/Opteo/gax-nodejs/tools?keep-case"
+    "gax-nodejs": "github:opteo/gax-nodejs"
   }
 }
